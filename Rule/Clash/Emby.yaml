@@ -1,1 +1,78 @@
+# 自用Emby分流规则
 
+payload:
+# 影视服
+  - DOMAIN-SUFFIX,auroramedia.vip # Aurora
+  - DOMAIN-SUFFIX,1024.name # Stupid melon🍉
+  - DOMAIN,emby.jingzhe.pro # JingzhePro
+  - DOMAIN,free.28.al # 起点站
+  - DOMAIN-SUFFIX,sfcj.org # 起点站
+  - DOMAIN-SUFFIX,doven.tv # 鸽巢 DoveNest
+  - DOMAIN,emby.cn2gias.uk # 守候影院
+  - DOMAIN-SUFFIX,vfing.de # July
+  - DOMAIN,lite.saturdayvideo.top # SaturDay.Lite
+  - DOMAIN,us.nanflix.net # Nanflix-US
+  - DOMAIN-SUFFIX,emby.my # 月饼
+  - DOMAIN-SUFFIX,sfcj.org # 非越媒体库
+  - DOMAIN-SUFFIX,itsmyduty.top # Levilde Luminia
+  - DOMAIN-SUFFIX,tanhuatv.site # 探花 TV
+  - DOMAIN,beebi.org # 比比 BeeBI
+  - IP-CIDR,167.235.118.41/32,no-resolve # 比比 alist
+  - DOMAIN-SUFFIX,aliz.work # HKA Emby
+  - DOMAIN-SUFFIX,ucloudhost.top # Kiku Emby
+  - DOMAIN-SUFFIX,zox.show # Zox/AcEmby
+  - DOMAIN,embyplus.org # 纸片人小站
+  - DOMAIN,gm.yezi.my # 叶子高码 Emby
+  - DOMAIN,emby1.123456789.lol # CineTrail（影迹）
+  - DOMAIN,emby.yunti.online # 云梯在线 Emby
+  - DOMAIN,cctv.paoluma.de # Paolu_Emby
+  - DOMAIN,nsfw.oceancloud.asia # 云海 NSFW Emby
+  - DOMAIN,emby.oceancloud.asia # 云海 Emby
+  - DOMAIN,pieclip.okbap.com # 片刻影视解说
+  - DOMAIN,bps8m.onyra.cc # Onyra Emby
+  - DOMAIN,yepfast.emby.moe # YepFast & 1111
+  - DOMAIN,cflocal.xxlb.net # YepFast & 1111
+  - DOMAIN,emby.younoyes.com # YounoEmby
+  - DOMAIN,gy.meowfly.de # 飞了个喵
+  - DOMAIN-SUFFIX,feiniu.lol # Emby 肥牛
+  - DOMAIN-SUFFIX,rjf37.com # 入机 Media
+  - DOMAIN,pornemby.com # PornEmby-MeFun
+  - DOMAIN-SUFFIX,staryuki.com # star_emby
+  - DOMAIN,playz.mjji.de # 无界云 & PLAYZ Emby
+  - DOMAIN,edge.staryuki.me # EDGE EMBY
+  - DOMAIN,ciallo.party # 105°
+  - DOMAIN,tufei.de # 土匪 Emby
+  - DOMAIN,cf.5msky.com # Msky 公益服
+  - DOMAIN,emby.heisi.org # 游骑兵 Emby
+  - DOMAIN,emby.zn.al #Zn 存档服
+  - DOMAIN,kfc.v50.su # 疯狂星期四V我50
+  - DOMAIN,zoxfree.3767483.xyz # ZoxFree
+  - DOMAIN,lite.cn2gias.uk # SNTP Media Lite
+  - DOMAIN-SUFFIX,hohai.eu.org # HOHAI
+  - DOMAIN,m.mobaiemby.site # 墨云阁
+  - DOMAIN,public.shrekmedia.org # Shrek 公益服
+  - DOMAIN,plumber.nezhasu.com # Plumber Emby
+  - DOMAIN,shouer.910427.xyz # Plumber Emby
+  - DOMAIN,kessoku-bando.biliblili.uk # 結束バンド
+  - DOMAIN,emby3.mcjoker.xyz # 叔服 Emby
+  - DOMAIN,fworks-emby.webn.cc # FWorks Network Emby
+  - DOMAIN-SUFFIX,mebimmer.de # ME
+  - DOMAIN,emby.kongcheng666.dpdns.org # 琉璃服
+  - DOMAIN-SUFFIX,yixia.io # 忆夏
+  - DOMAIN,emos.lol # emos
+  - DOMAIN,emby.ifvip.vip # NodeSeek fkdjt 自建
+  - DOMAIN,emby.191920.xyz # 一之濑琴美的电视台
+
+# 音乐服
+  - DOMAIN,emusica.91bp.us.kg # 鹅…音乐服
+  - DOMAIN,music.makifx.com # 音海拾贝
+  - DOMAIN,diaojinping.de # ikun
+  - DOMAIN,vip.nangua.de # 南瓜音乐服
+
+# 电子书
+  - DOMAIN,book.hsu.life # epub 电子书库
+
+# 有声书
+  - DOMAIN,audio.poloemby.xyz # Polo 有声书
+  - DOMAIN,audiobook.mefun.org # 蜗壳有声书
+  - DOMAIN,yueer.aiinyue.com # 悦耳声阅
